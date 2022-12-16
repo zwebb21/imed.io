@@ -1,0 +1,280 @@
+body {
+background-color: rgb(130, 100, 76);
+color: white;
+}
+
+
+
+.nav-link {
+  color: white;
+}
+
+.Navy {
+  background-color: #3D3A3A;
+}
+
+.Navy a {
+  color: black;
+}
+
+.Navy a:hover {
+  color: tan;
+}
+
+.dropdown-menu a:hover {
+  color: black;
+  background-color: #3D3A3A;
+}
+
+
+
+
+
+
+.card-text{/**This customizes the text **/
+
+font-weight: 90;
+font-family: sans-serif;
+
+}
+
+#Projectline {
+background-color:#3D3A3A;
+
+
+}
+
+#projects{
+padding: 15px;
+text-align: center;
+}
+
+#projects img{
+padding-left: 14px;
+padding-top: 20px;
+padding-bottom: 14px;
+margin: auto;
+width:320px;
+border-radius:22px;
+height:320px;
+
+}
+
+
+#contactform{
+color: grey;
+border-radius: 8px;
+padding: 2px;
+}
+
+
+/**  This is the Footer **/
+.col-12-1 {
+  background-color: #7D7777;
+
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+.card-body{
+
+
+
+}
+
+
+
+
+
+#PortfolioHeading{
+
+letter-spacing: 2.9px;
+
+
+}
+
+#News{
+font-size: 2em;
+  text-align: center;
+  color: black;
+  font-family: monospace;
+}
+
+#ContactHeading{
+
+color:#0DA5E9;
+text-align: center;
+
+}
+
+#introsection{
+
+text-align: center;
+
+
+}
+#ZW{
+
+letter-spacing: 1.8px;
+}
+
+#introsectionp{
+color:#0DA5E9;
+font-family: sans-serif;
+font-weight: bold;
+
+}
+#btndiv{
+justify-content: center;
+
+
+}
+
+
+#submitbtn {
+
+text-align:center;
+
+}
+
+
+/*    */
+#DedicationH {
+  text-align: center;
+  color:black;
+}
+
+#ContactH {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#ServicesH {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#MoreinfoH {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#listgroup1 {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-kerning: auto;
+}
+
+#listgroup1 a {
+  background-color: #555457;
+  color: white;
+}
+
+/**                             Group 2 - Services **/
+#listgroup2 {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#listgroup2 a {
+  background-color: #555457;
+  color: white;
+}
+
+/**                End                   Group 2 - Services                        **/
+/**                           Group 3 - More Info                        **/
+#listgroup3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+#listgroup3 a {
+  background-color: #555457;
+  color: white;
+}
+
+
+
+/** Footer Styling of  Section Of The Page **/
+/** Footer Styling of  Section Of The Page **//** Footer Styling of  Section Of The Page **//** Footer Styling of  Section Of The Page **/
+/** Footer Styling of  Section Of The Page **//** Footer Styling of  Section Of The Page **/
+/** Footer Styling of  Section Of The Page **/
+
+
+
+.button {
+  text-align: center;
+}
+
+#Footer {
+  background-color: #453E35;
+}
+
+
+.btn-primary-black {
+text-align: center;
+ color:black;
+  background-color:#555457; margin-top:20px;
+  margin-bottom: 20px;
+
+}
+
+
+
+.listgroup {
+border-radius: 2px;
+}
+
+.list{
+  text-align: center;
+width: 250px;
+border-radius: 2px;
+padding-bottom: 2px;
+
+text-decoration: none;
+
+}
+
+
+
+
+#card-img-html {
+
+width: 295px;
+padding: 19px;
+
+}
+
+
+.card-header{
+font-weight: light;
+text-shadow: 1px 0.54px 0.5px #3D3A3A ;
+text-align: center;
+}
+
+
+
+.col-6 {
+
+text-align: center;
+
+
+}
+
+
+
+/**/
+#htmlcard {
+
+
+float:right;
+
+
+}
