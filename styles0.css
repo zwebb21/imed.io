@@ -248,7 +248,7 @@ text-decoration: none;
 #card-img-html {
 
 width: 295px;
-padding: 19px;
+padding: 9px;
 
 }
 
@@ -275,6 +275,20 @@ text-align: center;
 
 
 float:right;
+
+
+}
+
+
+.card{
+
+
+
+  padding: 15px;
+}
+
+#htmlcard2{
+float: left;
 
 
 }
