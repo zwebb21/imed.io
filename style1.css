@@ -1,5 +1,5 @@
 body {
-background-color: rgb(130, 100, 76);
+background-color: rgb(100, 100, 76);
 color: white;
 }
 
@@ -35,7 +35,6 @@ color: white;
 /*Beginning Of Hero CSS  *//*Beginning Of Hero CSS  *//*Beginning Of Hero CSS  *//*Beginning Of Hero CSS  */
 
 .welcome-msg {
-position:fixed;
 padding-top: 600px;
 padding-left: 250px;
 text-align: center;
@@ -52,12 +51,25 @@ font-size:1.4em;
 
 
 .card-text , .card-title {
-color: black;
+
 font-size: 1.00em;
 text-align: center;
 }
 
 
+.display-3 {
+padding: 20px;
+text-align: center;
+margin-top: 530px;
+}
+
+section.projects {
+padding-top: 20px;
+margin-top: 200px;
+text-align: center;
+border: 1px solid black;
+
+}
 
 
 
