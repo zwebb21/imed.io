@@ -1,0 +1,68 @@
+body {
+background-color: rgb(130, 100, 76);
+color: white;
+}
+
+
+
+.nav-link {
+  color: white;
+}
+
+.Navy {
+  background-color: #3D3A3A;
+}
+
+.Navy a {
+  color: black;
+}
+
+.Navy a:hover {
+  color: tan;
+}
+
+.dropdown-menu a:hover {
+  color: black;
+  background-color: #3D3A3A;
+}
+
+/* End of Naviagation CSS *//* End of Naviagation CSS *//* End of Naviagation CSS *//* End of Naviagation CSS */
+/* End of Naviagation CSS *//* End of Naviagation CSS *//* End of Naviagation CSS *//* End of Naviagation CSS */
+
+
+
+/*Beginning Of Hero CSS 2.            Center text with:   "Text-align:center"
+/*Beginning Of Hero CSS  *//*Beginning Of Hero CSS  *//*Beginning Of Hero CSS  *//*Beginning Of Hero CSS  */
+
+.welcome-msg {
+position:fixed;
+padding-top: 600px;
+padding-left: 250px;
+text-align: center;
+font-size: 3.4em;
+}
+.welcome-msg-2{
+text-align: center;
+position:fixed;
+padding-top: 680px;
+padding-left: 388px;
+text-align: center;
+font-size:1.4em;
+}
+
+
+.card-text , .card-title {
+color: black;
+font-size: 1.00em;
+text-align: center;
+}
+
+
+
+
+
+
+
+/*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code */
+/*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code */
+/*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code *//*End Of Hero CSS Code */
