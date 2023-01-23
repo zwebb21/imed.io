@@ -1,6 +1,7 @@
 body {
-background-color: rgb(130, 100, 76);
-color: white;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(178,229,255,1) 100%);
+color: rgb(0, 0, 0);
 }
 
 
@@ -39,7 +40,6 @@ font-family: sans-serif;
 }
 
 #Projectline {
-background-color:#3D3A3A;
 
 
 }
@@ -65,6 +65,16 @@ height:320px;
 color: grey;
 border-radius: 8px;
 padding: 2px;
+}
+
+
+
+.card-body{
+
+
+border-radius: 660px;
+
+
 }
 
 
@@ -296,3 +306,49 @@ float: left;
 
 
 }
+
+
+ .linkedin {
+
+margin-top: 244px;
+letter-spacing: 0.44rem;
+text-align: center;
+font-weight: 500;
+
+
+}
+
+.Github {
+letter-spacing: 0.44rem ;
+margin-top: 12rem;
+text-align: center;
+
+}
+
+
+#SocialsDiv a {
+text-align: center;
+color: black;
+text-decoration: none;
+list-style: none;
+display: flex;
+flex-direction: column;
+}
+
+#SocialsDiv  a:hover {
+
+  color: tan;
+  font-size: x-large;
+  transition-timing-function: ease-in;
+  transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+
+  }
+  
+  #contactsection{
+
+
+margin-top:  15rem;
+
+
+
+  }
