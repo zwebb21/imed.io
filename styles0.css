@@ -224,7 +224,13 @@ text-align:center;
   color: white;
 }
 
+.card-title{
 
+letter-spacing: 0.25rem;
+font-size: 55px;
+font-family: 'Bebas Neue', cursive;
+
+}
 
 /** Footer Styling of  Section Of The Page **/
 /** Footer Styling of  Section Of The Page **//** Footer Styling of  Section Of The Page **//** Footer Styling of  Section Of The Page **/
