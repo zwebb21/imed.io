@@ -9,6 +9,27 @@ justify-content: center;
 }
 
 
+@media (min-width:980px){
+
+  
+.col-12{
+
+text-align: center;
+
+}
+
+  form {
+  width:650px;
+  padding: 12px;
+  display: inline-block;
+  flex-direction: row;
+  justify-items: center;
+  }
+  
+  
+          }
+
+
 
 .nav-link {
   color: white;
@@ -93,9 +114,10 @@ h1{
 
 
 #PortfolioHeading{
-
-letter-spacing: 2.9px;
-
+letter-spacing: 3.9px;
+font-family: 'Staatliches', cursive;
+font-size: 123px;
+color: rgb(49, 48, 48);
 
 }
 
@@ -346,7 +368,6 @@ margin-top:  15rem;
   }
 
 
-
   .container{
 display: flex;
 flex-direction: row;
@@ -363,40 +384,31 @@ width: 400px;
 
 } 
 
-
-
 .container-2{
   display: flex;
   text-align: center;
   justify-content: space-around;
-  
-  
     }
 
 
-
-
     .circle {
-
-      -webkit-mask-repeat:  no-repeat;
-
-
+      /* -webkit-mask-repeat:  no-repeat; */
 width:30%;
 border-radius: 90%;
 border: 2px solid white;
 margin-top: 2em;
 background-color: #3D3A3A;
 text-align: center;
--webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMCwgMjI0Ljc2NywgMjU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDAsIDE2NC4zMDEsIDI1NSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjUuNSwtMzAuMUMzMy4zLC0yMy45LDM5LjgsLTE2LjEsNDIuMiwtNi45QzQ0LjUsMi4zLDQyLjUsMTIuOSwzNy4zLDIxLjJDMzIuMSwyOS41LDIzLjYsMzUuNSwxNC45LDM3LjFDNi4xLDM4LjYsLTIuOSwzNS42LC0xMS4yLDMyQy0xOS41LDI4LjQsLTI3LjIsMjQuMywtMzIuMywxNy42Qy0zNy40LDEwLjksLTM5LjgsMS43LC0zNy4zLC01LjVDLTM0LjcsLTEyLjcsLTI3LC0xNy45LC0yMCwtMjQuMkMtMTIuOSwtMzAuNSwtNi41LC0zNy45LDEuMiwtMzkuM0M4LjksLTQwLjgsMTcuOCwtMzYuMywyNS41LC0zMC4xWiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlIDBzOyIgc3Ryb2tlPSJ1cmwoI3N3LWdyYWRpZW50KSI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==);
+/* -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMCwgMjI0Ljc2NywgMjU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDAsIDE2NC4zMDEsIDI1NSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjUuNSwtMzAuMUMzMy4zLC0yMy45LDM5LjgsLTE2LjEsNDIuMiwtNi45QzQ0LjUsMi4zLDQyLjUsMTIuOSwzNy4zLDIxLjJDMzIuMSwyOS41LDIzLjYsMzUuNSwxNC45LDM3LjFDNi4xLDM4LjYsLTIuOSwzNS42LC0xMS4yLDMyQy0xOS41LDI4LjQsLTI3LjIsMjQuMywtMzIuMywxNy42Qy0zNy40LDEwLjksLTM5LjgsMS43LC0zNy4zLC01LjVDLTM0LjcsLTEyLjcsLTI3LC0xNy45LC0yMCwtMjQuMkMtMTIuOSwtMzAuNSwtNi41LC0zNy45LDEuMiwtMzkuM0M4LjksLTQwLjgsMTcuOCwtMzYuMywyNS41LC0zMC4xWiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlIDBzOyIgc3Ryb2tlPSJ1cmwoI3N3LWdyYWRpZW50KSI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==); */
     }
+
     .container-4{
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-  -webkit-mask-repeat:  no-repeat;
+  /* -webkit-mask-repeat:  no-repeat; */
         }
-
 
 
         .card img {
@@ -405,10 +417,6 @@ border-radius: 6%;
 width: auto;
 height: auto;
 
-
-
-
-
-
-
         }
+
+

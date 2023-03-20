@@ -4,17 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>IMED 2359</title>
+
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-
-
+    
   <link href="styles0.css" rel="stylesheet" type="text/css" /> <!-- Linking my external Css -->
 
+<!-- Install of Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Courgette&family=Staatliches&display=swap" rel="stylesheet">
 
 
+
+<!--This is the CDN for the Boot Strap Icons To Work On THe Page  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
-  <!--This is the CDN for the Boot Strap Icons To Work On THe Page  -->
+ 
+ <!-- script for tailwind play cdn -->
+ 
+  <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 
@@ -90,13 +101,7 @@
     <div class="row">
       <div class="col-12" id="introsection">
         <h4 class="" id="ZW"> Zarius Webb </h4>
-        <p id="introsectionp" class="">Front End Developer </p>
-
-        <p>When it comes to design or artistic work. Having an eye and a good knack for conversating with people makes
-          you different it change you. </p>
-        <p>
-          Visit the rest of my site or feel free to use the site map link located at the bottom of the page to navigate.
-        </p>
+        <!--  -->
       </div>
     </div>
  
@@ -116,23 +121,7 @@
 
 
 
-
-
-
-<div class="heading3">
-  <div class="display-3 text-center mt-5 mb-5">Projects </div>
-</div>
-
-
 <div class="container-2">
-
-
-
-
-
-
-
-
   
   <div class="card-group">
     <div class="card bg-dark text-light">
@@ -166,60 +155,44 @@
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Start of Contact Form Section  -->
-<div class="container">
+<div class="row" id="contactform">
 
 
 
 
- <div class="item item-2">
+
+<div class="col-12">
+
+  <div class="item item-2">
   
   
   
-  <h4 class="display-5 mt-5" id="ContactHeading"> Contact Form   </h4>
-  <p>Eager to Learn and Collaborate on projects of any size. From personal business to working with start up
-    companies.Send me an email with the form below. </p>
+    <h4 class="display-5 mt-5" id="ContactHeading"> Contact Form   </h4>
+    <p>Eager to Learn and Collaborate on projects of any size. From personal business to working with start up
+      companies.Send me an email with the form below. </p>
+  
+    <form id="contact">
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+  
+              <div class="row mb-5">
+                <label for="inputPassword3" class="col-2 col-form-label">Subject</label>
+                <div class="col-sm-10">
+                  <input type="subject" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+  
+  
+    </form>
+  
+  </div>
+</div>
 
-  <form id="contactform">
-    <div class="row mb-3">
-      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3">
-      </div>
-    </div>
-
-
-
-    <div class="row mb-5">
-      <label for="inputPassword3" class="col-2 col-form-label">Subject</label>
-      <div class="col-sm-10">
-        <input type="subject" class="form-control" id="inputPassword3">
-      </div>
-    </div>
-
-    <div class="d-grid gap-2 col-6 mx-auto" id="btndiv">
-
-      <button type="submit" class="btn btn-primary" id="submitbtn">Send - Email</button>
-
-    </div>
-
-  </form></div>
 
 
 
