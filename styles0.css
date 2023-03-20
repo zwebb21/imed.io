@@ -156,7 +156,8 @@ font-size: 2em;
 
 #ContactHeading{
 /* changing the heading for contact to white  */
-color:#0DA5E9;
+  color: white;
+/* color:#0DA5E9; */
 text-align: center;
 font-size: 43px;
 }
