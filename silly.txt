@@ -61,20 +61,9 @@
         <a class="nav-link" href="Blog.html">Blog</a>
       </li>
 
-      <!--  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="product.html" role="button" aria-expanded="false">Products</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="product.html">Online - Beatstars Store</a></li>
-   <li><hr class="dropdown-divider"></li>-->
-
-
-      <!--  </ul>
-      </li>
--->
-
     </ul>
   </div>
-  <!--Navigation -->
+  <!-- End Of Navigation -->
 
 
   <div class="container-fluid">
@@ -125,20 +114,11 @@
     <!-- End of Introduction row div -->
 
 <!-- Projects Section -->
-<section class="project">
-
-  
-</section>
-
-
-
-
-
 
     <div class="row align-items-center" id="Projectline">
-      <div class="col-md-4" id="projects">
+      <div class="col-" id="projects">
         <div class="card text-bg-dark">
-          <img class="card-img-top" src="images/crypto.jpeg" />
+          <img class="img-fluid" src="images/crypto.jpeg" />
      
           <div class="card-body">
             <h5 class="card-title">Website - Grainz - Crytpocurrency Exchange platform</h5>
@@ -181,7 +161,7 @@
             <p class="card-text">In this project i build a small bakery store that lets customers select and order
               cupcaks.
             <p>Languages : HTML/CSS/Bootstrap</p>
-            <p class="card-text fw-bold"><small class="text-muted"><a href="/Truckfin/index.html">  Visit Site </a></small></p>
+            <p class="card-text fw-bold"><small class="text-muted"><a href="/shaw-master/index.html">  Visit Site </a></small></p>
           </div>
         </div>
       </div>
