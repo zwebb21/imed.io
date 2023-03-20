@@ -1,0 +1,4 @@
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Staatliches', cursive;
