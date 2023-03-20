@@ -1,14 +1,34 @@
 body {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(178,229,255,1) 100%);
+  background: rgb(27,27,27);
+  background: linear-gradient(0deg, rgba(27,27,27,1) 27%, rgba(29,29,29,1) 76%);
 color: rgb(0, 0, 0);
 justify-content: center;
 
+}
+
+
+
+a {
+text-decoration: none;
+color: white;
+}
+
+ a :hover {
+
+
+color:white;
 
 
 }
 
 
+
+
+
+
+
+
+/* Media Query Here  */
 @media (min-width:980px){
 
   
@@ -33,18 +53,19 @@ text-align: center;
 
 .nav-link {
   color: white;
+  background-color: rgb(130, 130, 130);
 }
 
 .Navy {
-  background-color: #3D3A3A;
+  background-color: #9e9e9e;
 }
 
 .Navy a {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .Navy a:hover {
-  color: tan;
+  color: rgb(1, 63, 11);
 }
 
 .dropdown-menu a:hover {
@@ -53,7 +74,12 @@ text-align: center;
 }
 
 
+.dropdown-menu {
 
+
+background-color: #453E35;
+
+}
 
 
 
@@ -117,7 +143,7 @@ h1{
 letter-spacing: 3.9px;
 font-family: 'Staatliches', cursive;
 font-size: 123px;
-color: rgb(49, 48, 48);
+color: #ffffff;
 
 }
 
