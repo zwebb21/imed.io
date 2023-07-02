@@ -10,7 +10,7 @@ color: white;
 }
 
 .Navy {
-  background-color: #3D3A3A;
+  background-color: #699cb6;
 }
 
 .Navy a {
@@ -38,27 +38,56 @@ font-family: sans-serif;
 
 }
 
+<<<<<<< Updated upstream
 #Projectline {
 background-color:#3D3A3A;
+=======
+>>>>>>> Stashed changes
 
 
+
+.Project{
+
+font-family: Bebas Neue;
+letter-spacing: 1.2rem;
+color:#fbfeff;
+text-shadow: #3D3A3A 1px 2px 5px;
 }
 
 #projects{
-padding: 15px;
+padding: 32px;
 text-align: center;
+width: 33%;
+
+
 }
 
 #projects img{
-padding-left: 14px;
-padding-top: 20px;
-padding-bottom: 14px;
+
+padding: 14px;
 margin: auto;
-width:320px;
-border-radius:22px;
-height:320px;
+border-radius:26px;
+height:22rem;
 
 }
+
+
+
+
+
+
+
+
+.bi-gear-wide{
+
+color: rgb(255, 158, 73);
+width: 40%;
+}
+
+
+
+
+
 
 
 #contactform{
@@ -68,6 +97,19 @@ padding: 2px;
 }
 
 
+<<<<<<< Updated upstream
+=======
+
+.card-body{
+
+
+border-radius: 360px;
+
+
+}
+
+
+>>>>>>> Stashed changes
 /**  This is the Footer **/
 .col-12-1 {
   background-color: #7D7777;
@@ -77,15 +119,6 @@ padding: 2px;
 h1{
   text-align: center;
 }
-
-
-
-.card-body{
-
-
-
-}
-
 
 
 
