@@ -1,0 +1,77 @@
+/*  Sections */
+ 
+// start of profile section 
+   #socials-container{
+   
+   display: flex;
+   
+   }
+   
+   section {
+   
+   padding-top:  4vh;
+   height: 96vh;
+   margin:0 10rem;
+   box-sizing: border-box;
+   min-height: fit-content;
+   
+   
+   
+   .section_pic-container{
+   display: flex;
+   height: auto;
+   width: auto;
+   margin: auto 0 ;
+   justify-content: space-around;
+   gap: 10rem;
+   }
+   
+   .section__text{
+   margin-top: 14.5rem;
+   align-self: center;
+   text-align: center;
+   line-height: 0.45rem;
+   }
+   
+   .section_text p {
+   line-height: 3.93rem;
+   font-weight: 600;
+   color: rgb(71, 71, 71);
+   }
+   .section_text__p1{
+   
+   text-align: center;
+   
+   }
+   
+   #profile {
+   display: flex;
+   justify-content: center;
+   gap: 5rem;
+   height: auto;
+   
+   }
+   
+   .btn-container {
+       display: flex;
+       justify-content: center;
+    gap: 2.3rem;
+       }
+   
+       .btn-container-row-2{
+   
+   margin-top: 1.3rem;
+   
+       } 
+   #socials-container{
+   
+   gap: 2.2rem;
+   
+   }
+
+   }
+
+/* end of profile section  */
+
+
+

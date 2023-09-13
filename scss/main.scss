@@ -1,0 +1,57 @@
+
+@import '02-Components/cards';
+@import '03-Customize/fonts';
+@import '01-Variables/Variables';
+@import '02-Components/navigation';
+@import '03-Customize/mediaqurey';
+@import '04-Sections/Sections';
+@import '02-Components/icons';
+@import '03-Customize/buttons';
+
+/*Note : 
+i had trouble getting sass to work. Problem solved due to file directort. 
+No forward slash needed since the main sccs file lives within same directory. 
+*/
+
+* {
+
+margin : 0 ;
+padding: 0 ;
+
+}
+
+
+body {
+
+    font-family: 'Poppins', sans-serif 600;
+
+}
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+
+
+p {
+
+    color:rgb(85,85,85) 
+}
+
+
+/* Transition */
+
+
+a, .btn {
+
+transition: all 300ms ease;
+
+}
+
+.profile-pic{
+    padding: 1.5rem;
+display: flex;
+height: 800px;
+}

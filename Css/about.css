@@ -1,0 +1,168 @@
+body {
+  background-color: #756D5E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid {
+  background-color: #DBCCB0;
+  border: 1px solid black;
+
+}
+
+.Navy {
+  background-color: #756D5E;
+
+
+}
+
+.Navy a {
+  color: black;
+}
+
+.Navy a:hover {
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  color: black;
+  background-color: #B5A891;
+}
+
+.col-6 {}
+
+.col-4 {
+  background-color: #F5E4C4;
+  border: 1px solid black;
+}
+
+.col-3 {}
+
+.col-12-1 {
+  background-color: #75695A;
+  border: 1px solid black;
+}
+
+.welcome {
+  text-align: center;
+}
+
+
+
+.card-body {
+  background-color: #343a40;
+}
+
+.display-1 {
+  text-align: center;
+}
+
+.display-4 {
+  text-align: center;
+}
+
+
+
+
+
+
+.image-fluid {
+  max-width: 100%;
+}
+
+.Drow {
+  background-image: linear-gradient(#F5E4C4, #756D5E);
+}
+
+#FSpic {
+  /**This is how you call an id for a specific area **/
+  text-align: center;
+  color: black;
+}
+
+#ArtGallery {
+  background-image: linear-gradient(#F5E4C4, #F1E4c8);
+  border: 0.02em solid black;
+}
+
+.carousel-inner img {
+  height: 1050px;
+  width: 1000px;
+}
+
+#row1 img {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#row1 p {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#card {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#card1 {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+
+#card3 img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+
+
+#Erow {
+  background-image: radial-gradient(#756D5E, #A8987D);
+}
+
+#Article {
+  padding-top: 40px;
+}
+
+#Html {
+  padding-top: 100px;
+}
+
+#psd {
+  padding-top: 40px;
+}
+
+.vid {
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#cardtweet {
+  padding-top: 40px;
+}
+
+#igcard {
+  margin-left: 20px;
+  margin-top: 53px;
+}
+
+#hero2 {
+  text-align: center;
+}
