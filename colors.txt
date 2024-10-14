@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-1-hex { color: #3F4159; }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-2-hex { color: #3F83BF; }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-3-hex { color: #3F8EBF; }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-4-hex { color: #F2E9BB; }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-5-hex { color: #F2E2C4; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-1-rgba { color: rgba(63, 65, 89, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-2-rgba { color: rgba(63, 131, 191, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-3-rgba { color: rgba(63, 142, 191, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-4-rgba { color: rgba(242, 232, 186, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-5-rgba { color: rgba(242, 226, 195, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-1-hsla { color: hsla(235, 17, 29, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-2-hsla { color: hsla(208, 50, 49, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-3-hsla { color: hsla(202, 50, 49, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-4-hsla { color: hsla(50, 67, 84, 1); }
+.color-theme_6-online-logo-maker-for-tennis-shoes-stores-1261a-5-hsla { color: hsla(39, 63, 85, 1); }
