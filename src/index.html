@@ -9,6 +9,153 @@
 
 <style>
 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a3c3a; /* Neutral backdrop */
+    color: #333; /* General text color */
+}
+
+/* Header Title */
+#tennis-handbook-title {
+    margin-top: 10rem;
+    color: #C6DB38; /* Primary Tennis Ball Color */
+}
+
+/* Subtitle */
+h5 {
+    color: #AFC43B; /* Secondary Tennis Ball Color */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #c8f000; /* Accent Green */
+}
+
+a:hover {
+    padding: 5px;
+    border-radius: 25%;
+    color: #EFEB7F; /* Highlight Yellow on Hover */
+}
+
+/* Navigation */
+nav {
+    border-top: 4px solid #929D71; /* Neutral Green Border */
+    padding: 25px;
+    margin-left: 15em;
+    margin-top: 2.2em;
+    margin-bottom: 2.2em;
+}
+
+.list-item {
+    font-weight: 800;
+    font-size: 1.8rem; /* Adjusted for readability */
+    color: #fcfffd; /* white for Nav Items */
+    width: min-content;
+}
+
+.list-item:hover {
+    color: #000000; /* Darker Green on Hover */
+}
+
+/* Buttons */
+button {
+    text-align: center;
+    min-width: max-content;
+    border-radius: 100px;
+}
+
+.btn-danger {
+    background-color: #EFEB7F; /* Highlight Yellow */
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #AFC43B; /* Secondary Green */
+    color: white;
+}
+
+.btn-success {
+    background-color: #C6DB38; /* Primary Tennis Green */
+    color: white;
+}
+
+.btn:hover {
+    background-color: #96A73C; /* Accent Green on Hover */
+}
+
+/* Card or Content Boxes */
+.card {
+    background-color: #F5F5F5; /* Neutral backdrop */
+    border: 1px solid #96A73C; /* Accent Green Border */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card.highlight {
+    background-color: #EFEB7F; /* Highlight Color */
+    color: #333;
+    border-color: #C6DB38; /* Primary Color for contrast */
+}
+
+/* Section */
+#section-holder {
+    background-color: rgba(175, 195, 59, 0.5); /* Secondary Color with transparency */
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.main-holder {
+    background-color: rgba(198, 219, 56, 0.2); /* Primary Color with transparency */
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #96A73C; /* Accent Green Border */
+}
+
+.main-content h5 {
+    color: #e3ff55; /* Accent Green for headings */
+}
+
+.main-holder-footer {
+    background-color: #929D71; /* Neutral footer color */
+    padding: 10px;
+    color: white;
+}
+
+/* Flexbox container for h1 and img */
+.title-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+    margin-top: 2rem;
+}
+
+.title-container img {
+    width: 300px; /* Adjust the size of the image */
+    height: auto;
+    margin-left: 20px; /* Adds spacing between the image and the heading */
+}
+
+
+
+
+
+
+</style>
+
+
+<!-- <style>
+
+
+#tennis-handbook-title{
+/* title  */
+    margin-top:10rem;
+
+}
+
+
 a {
 
 text-decoration: none;
@@ -47,43 +194,48 @@ width:min-content ;
 
 }
 
-</style>
+</style> -->
 
 </head>
-<body class="bg-green-100 container mx-auto">
+<body class=" container-fluid mx-auto">
     
 <section>
 
-<ul class="mt-5 p-5  list-none hover: flex space-x-20">
+<ul class="mt-5 p-5    list-none hover: flex space-x-60">
     <a href="docs.html">
         
-        <li  class=" text-2xl hover:text-red-600 duration-200 list-item">Docs</li>
+        <li  class=" text-7xl  duration-200 ">Docs</li>
     </a>
     <a href="about.html">
 
-        <li  class="list-item text-2xl  hover:text-amber-900 duration-200  ">About</li>
+        <li  class=" text-7xl  duration-200  ">About</li>
     </a>
     <a href="blog.html">
         
-        <li class="list-item   text-2xl   hover:text-red-600  duration-200">Blog</li>
+        <li class="   text-7xl   duration-200">Blog</li>
     </a>
 </ul>
     
 </section>
 
+<!-- Wrap the h1 and img inside a container -->
+<div class="title-container d-flex align-items-center justify-content-center p-5 mt-6">
+    <h1 id="tennis-handbook-title" class="text-violet-600 text-6xl uppercase">THE TENNIS HANDBOOK</h1>
+    <img class="img-fluid ms-3" src="/img/tennis-girl2.png" alt="Tennis Girl">
+</div>
 
 
-<h1 class="text-violet-600 text-center text-6xl m-8 " >The Tennis HandBook</h1>
-<h5 class="text-sky-50 text-center text-3xl m-8 " >dev.Zarius</h5>
 
-<section id="section-holder " class="bg-green-500/50 p-12 rounded-xl mb-5">
+<!-- <h5 class="text-sky-50 text-center text-3xl m-8 " >dev.Zarius</h5> -->
 
-<nav>
-<ul class="list-none flex space-x-32">
+<section id="section-holder" class="bg-green-500/50 p-12  rounded-xl container-fluid  mb-5">
 
-<a href="sale.html">
+<nav class="navbar text-center ml-5">
+<ul class="list-none flex space-x-32 text-center">
 
-    <li class="list-item fs-3 duration-200">Sale</li>
+<a  class="nav-link" href="sale.html">
+
+    <li class="list-item fs-3 duration-200 nav-item">Sale</li>
 </a>
 
 <a href="">
@@ -96,67 +248,106 @@ width:min-content ;
 
     <li class="list-item fs-3 duration-200">Racquets</li>
 </a>
+
+<a href="">
+
+    <li class="list-item fs-3 duration-200">Bags</li>
+</a>
+
+<a href="">
+
+    <li class="list-item fs-3 duration-200">Tennis Grips</li>
+</a>
+
+<a href="">
+
+    <li class="list-item fs-3 duration-200">Tennis Shoes</li>
+</a>
+<a href="">
+
+    <li class="list-item fs-3 duration-200">Recovery/Hydration</li>
+</a>
+<a href="">
+
+    <li class="list-item fs-3 duration-200">Tennis Balls</li>
+</a>
+
+<a href="">
+
+    <li class="list-item fs-3 duration-200">Court Equipment</li>
+</a>
+
+
+
+
+
 </ul>
 
 </nav>
 
 
     
-<section class="main-holder bg-green-50/50 p-3 rounded-lg ">
+<section id="tennis-content-container" class="main-holder bg-green-50/50 p-3 rounded-lg ">
 
     <div class="main-content p-5">
     <div class="row">
     <div class="col-lg-4 p-5 border-l-4 border-slate-500 ">
-        <h5 class="p-4 mb-4 text-5xl font-bold text-green-800">Babolat - Brands</h5>
+
+<img src="/img/tennis-girl3.jpg" alt="" class="img-fluid rounded">
+
+        <h5 class="p-4 mb-4 text-5xl font-bold">Babolat Brands</h5>
         <div class="col-lg-4">
     
-            <button class="btn btn-danger mb-5 outline outline-offset-1 outline-4 outline-red-500/50 ">Babolat Pure Strike</button>
+         
+            <button class="btn btn-outline-dark mb-5 btn-lg   ">Babolat Pure Strike</button>
         </div>
     
         <div class="col-lg-4">
     
-            <button class="btn btn-primary mb-5  hover:bg-red-600">Babolat Pure Drive</button>
+            <button class="btn btn-outline-dark mb-5 btn-lg  ">Babolat Pure Drive</button>
         </div>
     
         <div class="col-lg-4">
     
-            <button class="btn btn-success">Babolat Junior > Performance</button>
+            <button class="btn btn-outline-dark  btn-lg">Babolat Junior > Performance</button>
      
         </div>
     
     </div>
     <div class="col-lg-4 p-5 border-l-4 border-slate-500 ">
-<h5 class="p-4 mb-4 text-5xl font-bold text-green-800">Dunlop-Brands</h5>
+        <img src="/img/tennis-girl4.jpg" alt="" class="img-fluid rounded mb-5">
+        <h5 class="p-4 mb-4 text-5xl font-bold text-green-800 ">Dunlop-Brands</h5>
         <div class="col-lg-4">
 
-            <button class="btn btn-danger mb-5">Dunlop cx400</button>
+            <button class="btn btn-outline-dark mb-5 btn-lg">Dunlop cx400</button>
         </div>
     <div class="col-lg-4 ">
 
-        <button class="btn btn-primary mb-5">Dunlop XS 300 </button>
+        <button class="btn btn-outline-dark mb-5 btn-lg">Dunlop XS 300 </button>
 
     </div>
 
     <div class="col-lg-4">
 
-        <button class="btn btn-success mb-5">Dunlop Junior Performance</button>
+        <button class="btn btn-outline-dark mb-5 btn-lg">Dunlop Junior Performance</button>
 
     </div>
     </div>
     <div class="col-lg-4 p-5 border-l-4 border-slate-500 ">
+        <img src="/img/tennis-girl6.jpg" alt="" class="img-fluid rounded ">
         <div class="col-lg-4">
 <h5 class="p-5 mb-4 text-5xl font-bold text-green-800">Wilson  Brands</h5>
-            <button class="btn btn-danger mb-5">Wilson Pro-staff</button>
+            <button class="btn btn-outline-dark mb-5 btn-lg ">Wilson Pro-staff</button>
         </div>
     <div class="col-lg-4">
 
-        <button class="btn btn-primary mb-5">Wilson Clash  </button>
+        <button class="btn btn-outline-dark mb-5 btn-lg">Wilson Clash  </button>
 
     </div>
 
     <div class="col-lg-4">
 
-        <button class="btn btn-success mb-5">Wison >Junior Performance</button>
+        <button class="btn btn-outline-dark  btn-lg mb-5">Wison >Junior Performance</button>
 
     
     </div>
@@ -169,7 +360,7 @@ width:min-content ;
 
 </section>
 
-<section class="main-holder-footer">
+<section class="main-holder-footer text-center rounded">
 <p class="mt-5 p-5 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eveniet soluta ipsam porro saepe quibusdam voluptates corporis ipsa neque, minima nostrum minus commodi aperiam sed dolor possimus necessitatibus! Nisi, perferendis.</p>
 
 <p class="mt-5 p-5 text-xl ">
